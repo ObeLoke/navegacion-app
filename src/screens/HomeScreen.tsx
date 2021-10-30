@@ -10,13 +10,13 @@ export const HomeScreen = ({ navigation }: Props) => {
 
     return (
         <View style={styles.globalMargin}>
-            <Text>
+            <Text style={styles.title}>
                 Home
             </Text>
 
             <Button
                 title="Ir a About"
-                onPress={() => navigation.navigate('About')}
+                onPress={() => navigation.navigate('AboutScreen')}
             />
         </View>
     )

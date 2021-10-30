@@ -9,7 +9,7 @@ export const ContactScreen = ({ navigation }: Props) => {
 
     return (
         <View style={styles.globalMargin}>
-            <Text>
+            <Text style={styles.title}>
                 Contact
             </Text>
 
